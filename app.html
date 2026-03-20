@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Mobile App Development</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header class="navbar">
+
+<div class="logo">AFFINITY SOFTWARE</div>
+
+<ul class="menu">
+<li><a href="index.html">Home</a></li>
+<li><a href="about.html">About</a></li>
+<li class="dropdown">
+    <a href="">Service</a>
+
+    <ul class="dropdown-menu">
+        <li><a href="web_develop.html">Web Development</a></li>
+        <li><a href="app.html">Mobile App Development</a></li>
+        <li><a href="product.html">AI Development</a></li>
+        <li><a href="ux.html">UI / UX Design</a></li>
+        <li><a href="ml_engineer.html">ML Engineer</a></li>
+    </ul>
+</li>
+<li><a href="product.html">AI Products</a></li>
+<li><a href="blogs.html">Blogs</a></li>
+</ul>
+
+<button class="contact-btn"><a href="contact.html">Contact Us</a></button>
+
+</header>
+
+
+
+<!-- HERO SECTION -->
+<section class="mobile-hero">
+
+<div class="mobile-image animate">
+  <img src="Image/about.jpg">
+</div>
+  <div class="mobile-content">
+    <h1>Mobile App Development</h1>
+    <p>
+      We empower businesses to build powerful and user-friendly mobile applications 
+      using cutting-edge technologies for seamless performance and exceptional user experience.
+    </p>
+  </div>
+</section>
+
+<!-- SERVICES -->
+<section class="mobile-services">
+  <h2>Our Mobile App Solutions</h2>
+
+  <div class="service-container">
+    <div class="service-card">
+      <h3>Android Development</h3>
+      <p>High-performance Android apps with modern UI and scalable architecture.</p>
+    </div>
+
+    <div class="service-card">
+      <h3>iOS Development</h3>
+      <p>Elegant and secure iOS applications designed for premium user experience.</p>
+    </div>
+
+    <div class="service-card">
+      <h3>Cross Platform</h3>
+      <p>Build apps for both Android & iOS using React Native & Flutter.</p>
+    </div>
+
+  </div>
+</section>
+
+<!-- FEATURES -->
+<section class="mobile-features">
+  <h2>Why Choose Us</h2>
+
+  <div class="feature-container">
+
+    <div class="feature-box">⚡ Fast Performance</div>
+    <div class="feature-box">🔒 Secure Apps</div>
+    <div class="feature-box">📱 Responsive UI</div>
+    <div class="feature-box">☁️ Cloud Integration</div>
+
+  </div>
+</section>
+
+<!-- CTA -->
+<section class="mobile-cta">
+  <h2>Ready to Build Your App?</h2>
+  <p>Let's turn your idea into a powerful mobile application.</p>
+  <!-- <button class="mobile-btn">Contact Us</button> -->
+</section>
+<footer class="footer">
+
+<div class="footer-container">
+
+<!-- Address Section -->
+
+<div class="footer-col">
+
+<h3>India (HQ)</h3>
+
+<p>
+2-16-7/2, Flat No.504<br>
+Sirangu St, Venkata Nagar,<br>
+Bhaskarnagar, East Godavari,<br>
+Kakinada (Urban), Andhra Pradesh,<br>
+India - 533003
+</p>
+
+<p>Phone: +91 9876543210</p>
+
+</div>
+
+
+<!-- Services -->
+
+<div class="footer-col">
+
+<h3>Services</h3>
+
+<ul>
+<li><a href="product.html">AI Engineering</a></li>
+<li><a href="ml_engineer.html">ML Engineering</a></li>
+<li><a href="app.html">Mobile App Development</a></li>
+<li><a href="ux.html">UI/UX Design</a></li>
+<li><a href="web_develop.html">Web Development</a></li>
+</ul>
+
+</div>
+
+
+<!-- Industries -->
+
+<div class="footer-col">
+
+<h3>Quick Links</h3>
+
+<ul>
+<li><a href="index.html">Home</a></li>
+<li><a href="about.html">About Us</a></li>
+<li><a href="blogs.html">Blogs</a></li>
+<li><a href="contact.html">contact Us</a></li>
+<li><a href="product.html">AI Products</a></li>
+</ul>
+
+</div>
+</div>
+
+<div class="footer-bottom">
+
+<div class="company-name">
+© 2026:- AFFINITY SOFTWARE SOLUTIONS
+</div>
+
+</div>
+
+</footer>
+
+<script src="index.js"></script>
+
+<script>
+const elements = document.querySelectorAll('.animate');
+
+window.addEventListener('scroll', () => {
+  elements.forEach(el => {
+    const position = el.getBoundingClientRect().top;
+    const screenHeight = window.innerHeight;
+
+    if(position < screenHeight - 100){
+      el.classList.add('show');
+    }
+  });
+});
+</script>
+</body>
+</html>

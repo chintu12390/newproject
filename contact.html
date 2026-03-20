@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Contact Us</title>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+</head>
+
+<body>
+
+<header class="navbar">
+
+<div class="logo">AFFINITY SOFTWARE</div>
+
+<ul class="menu">
+<li><a href="index.html">Home</a></li>
+<li><a href="about.html">About</a></li>
+<li class="dropdown">
+    <a href="">Service</a>
+
+    <ul class="dropdown-menu">
+        <li><a href="web_develop.html">Web Development</a></li>
+        <li><a href="app.html">Mobile App Development</a></li>
+        <li><a href="product.html">AI Development</a></li>
+        <li><a href="ux.html">UI / UX Design</a></li>
+        <li><a href="ml_engineer.html">ML Engineer</a></li>
+    </ul>
+</li>
+<li><a href="product.html">AI Products</a></li>
+<li><a href="blogs.html">Blogs</a></li>
+</ul>
+
+<button class="contact-btn"><a href="contact.html">Contact Us</a></button>
+
+</header>
+
+
+<section class="contact-section">
+
+<div class="contact-container">
+
+<!-- LEFT CONTENT -->
+
+<div class="contact-left">
+
+<h1 style="color: white;">Let's Build What's Next, Together</h1>
+
+<p>
+Whether you're exploring AI, scaling products, or modernizing operations,
+we help you move from idea to impact.
+</p>
+
+<div class="contact-cards">
+
+<div class="contact-card" style="color: white; font-size: 20px;">
+<h3>Share Your Vision</h3>
+<p>Share your goals, challenges, or product idea. Our experts understand your requirements, define the right strategy, architecture, timeline, and roadmap.</p>
+</div>
+
+<div class="contact-card" style="color:  white; font-size: 20px;">
+<h3>Build & Launch</h3>
+<p>From design to engineering and deployment, we handle end-to-end development, working closely to deliver, optimize, and scale your product for long-term success.</p>
+</div>
+
+</div>
+
+</div>
+
+
+<!-- FORM -->
+
+<div class="contact-form">
+
+<h2>Schedule a Free Consultation</h2>
+
+<form id="contactForm">
+
+<input type="text" placeholder="Your Name" required>
+
+<input type="email" placeholder="Company Email" required>
+
+<input type="text" placeholder="Company">
+
+<input type="text" placeholder="Phone">
+
+<textarea placeholder="Message"></textarea>
+
+<button type="submit">Submit</button>
+
+</form>
+
+<p id="successMsg" style="color:green; display:none; margin-top:10px;">
+  ✅ Form Submitted Successfully!
+</p>
+
+</div>
+
+</div>
+
+</section>
+
+
+<!-- LOCATION SECTION -->
+
+<section class="locations">
+
+<h2 style="color: white; font-size: 40px;">Our Locations</h2>
+
+<div class="location-container">
+
+<div class="location-card">
+
+<h3 style="color: white; font-size: 30px;">India (HQ)</h3>
+
+<p style="color: white; margin-top: 20px;">
+2-16-7/2, Flat No.504<br>
+Sirangu St, Venkata Nagar,<br>
+Bhaskarnagar, East Godavari,<br>
+Kakinada (Urban), Andhra Pradesh,<br>
+India - 533003<br>
+Phone - +91 9876543210
+</p>
+
+</div>
+
+
+</div>
+
+</section>
+
+<footer class="footer">
+
+<div class="footer-container">
+
+<!-- Address Section -->
+
+<div class="footer-col">
+
+<h3>India (HQ)</h3>
+
+<p>
+2-16-7/2, Flat No.504<br>
+Sirangu St, Venkata Nagar,<br>
+Bhaskarnagar, East Godavari,<br>
+Kakinada (Urban), Andhra Pradesh,<br>
+India - 533003
+</p>
+
+<p>Phone: +91 9876543210</p>
+
+</div>
+
+
+<!-- Services -->
+
+<div class="footer-col">
+
+<h3>Services</h3>
+
+<ul>
+<li><a href="product.html">AI Engineering</a></li>
+<li><a href="ml_engineer.html">ML Engineering</a></li>
+<li><a href="app.html">Mobile App Development</a></li>
+<li><a href="ux.html">UI/UX Design</a></li>
+<li><a href="web_develop.html">Web Development</a></li>
+</ul>
+
+</div>
+
+
+<!-- Industries -->
+
+<div class="footer-col">
+
+<h3>Quick Links</h3>
+
+<ul>
+<li><a href="index.html">Home</a></li>
+<li><a href="about.html">About Us</a></li>
+<li><a href="blogs.html">Blogs</a></li>
+<li><a href="contact.html">Contact Us</a></li>
+<li><a href="product.html">AI Products</a></li>
+</ul>
+
+</div>
+
+</div>
+
+<div class="footer-bottom">
+
+<div class="company-name">
+© 2026:- AFFINITY SOFTWARE SOLUTIONS
+</div>
+
+</div>
+
+</footer>
+<script src="index.js"></script>
+
+<script>
+const form = document.getElementById("contactForm");
+const msg = document.getElementById("successMsg");
+
+form.addEventListener("submit", function(e){
+    e.preventDefault();
+    msg.style.display = "block";
+    form.reset();
+});
+</script>
+
+</body>
+</html>
